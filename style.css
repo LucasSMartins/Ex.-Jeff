@@ -1,0 +1,31 @@
+body {
+      background-color: lightgray;
+}
+
+#div-h1 {
+      display: flex;
+}
+
+h1 {
+      margin: auto;
+}
+
+#div-lista {
+      display: flex;
+}
+
+.lista {
+      list-style: none;
+}
+
+#adicionarProduto > input{
+      margin: 5px;
+}
+
+.esconder{
+      display: none;
+}
+
+#fecharCarrinho {
+      line-height: 25px;
+}

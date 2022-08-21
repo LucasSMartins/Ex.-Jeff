@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Loja X</title>
+</head>
+<body>
+      
+      <div id="div-h1" >
+            <h1>Loja X</h1>
+      </div>
+      <h2>Preços dos Produtos</h2>
+      <div id="div-lista">
+           
+            <div>
+                  <ul class="lista">
+                        <li>Camisa</li>
+                        <li>Bermuda</li>
+                        <li>Boné</li>
+                  </ul>
+            </div>
+            <div>
+                  <ul class="lista">
+                        <li>R$ 25,00</li>
+                        <li>R$ 20,00</li>
+                        <li>R$ 10,00</li>
+                  </ul>
+            </div>
+      </div>
+      <button onclick="adicionarProduto()">ADICIONAR PRODUTO</button>
+      <button onclick="fecharCarrinho()">FECHAR CARRINHO</button>
+      <div id="adicionarProduto" class="esconder">
+            
+            <label for="camisa">Camisa</label>
+            <input name="camisa" id="camisa" type="number" min="0" ><br>
+            
+            <label for="bermuda">Bermuda</label>
+            <input name="bermuda" id="bermuda" type="number" min="0"><br>
+            
+            <label for="bone">Boné</label>
+            <input name="bone" id="bone" type="number" min="0"><br>
+            
+      </div>
+      <div id="fecharCarrinho"></div>
+      <div id="total"></div>
+
+
+</body>
+<script src="index.js"></script>
+</html>
